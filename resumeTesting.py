@@ -28,7 +28,7 @@ assistant = client.beta.assistants.update(
 # ------------------------- START -------------------------------
 
 
-st.title("This is a resume help page")
+st.title("This is a resume rewrite page")
 
 
 resume = st.text_area(

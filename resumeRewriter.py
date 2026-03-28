@@ -11,7 +11,7 @@ if 'assistant_id' not in st.session_state:
 st.title("Resume Rewriter")
 st.markdown("---")
 
-api_key = os.getenv('OPENAI_API_KEY')
+api_key = st.secrets["OPENAI_API_KEY"]
 
 client = OpenAI(api_key=api_key)
 
